@@ -1,2 +1,3 @@
 .venv
 .ipynb_checkpoints
+jupyter nbconvert --to markdown cdisc-oncology-etl/etl_pipeline.ipynb --output ../README.md
